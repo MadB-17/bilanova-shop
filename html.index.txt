@@ -22,4 +22,66 @@
 
   <!-- Hero Section -->
   <section class="bg-gray-50 py-20 text-center">
-    <h2 class="text-4xl font-extrabold mb-4">Smart
+    <h2 class="text-4xl font-extrabold mb-4">Smart Gadgets for Modern Living</h2>
+    <p class="text-lg text-gray-600 mb-6">Curated lifestyle & tech products that make everyday smarter.</p>
+    <a href="/products" class="px-6 py-3 bg-emerald-600 text-white rounded-xl text-lg hover:bg-emerald-700 transition">
+      Shop Now
+    </a>
+  </section>
+
+  <!-- Featured Products Section -->
+  <section class="max-w-7xl mx-auto px-6 py-12">
+    <h3 class="text-2xl font-bold mb-8 text-center">Featured Products</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+      <!-- Product 1 -->
+      <div class="border rounded-xl shadow-sm p-4 hover:shadow-md transition">
+        <img src="https://m.media-amazon.com/images/I/71s7Hky8-CL._AC_SL1500_.jpg" alt="Smart LED Strip" class="rounded-lg mb-4">
+        <h4 class="text-lg font-semibold mb-2">Smart LED Strip</h4>
+        <p class="text-sm text-gray-600 mb-3">Colorful smart lighting with app control.</p>
+        <a href="YOUR-AMAZON-AFFILIATE-LINK" target="_blank" class="block text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700 transition">
+          Buy Now
+        </a>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="border rounded-xl shadow-sm p-4 hover:shadow-md transition">
+        <img src="https://m.media-amazon.com/images/I/61j17FfY4LL._AC_SL1500_.jpg" alt="Mini USB Vacuum" class="rounded-lg mb-4">
+        <h4 class="text-lg font-semibold mb-2">Mini USB Vacuum</h4>
+        <p class="text-sm text-gray-600 mb-3">Keep your desk and gadgets dust-free.</p>
+        <a href="YOUR-AMAZON-AFFILIATE-LINK" target="_blank" class="block text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700 transition">
+          Buy Now
+        </a>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="border rounded-xl shadow-sm p-4 hover:shadow-md transition">
+        <img src="https://m.media-amazon.com/images/I/71kRrRW0lUL._AC_SL1500_.jpg" alt="Magnetic Phone Holder" class="rounded-lg mb-4">
+        <h4 class="text-lg font-semibold mb-2">Magnetic Phone Holder</h4>
+        <p class="text-sm text-gray-600 mb-3">Strong magnetic mount for your car or desk.</p>
+        <a href="YOUR-AMAZON-AFFILIATE-LINK" target="_blank" class="block text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700 transition">
+          Buy Now
+        </a>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="border rounded-xl shadow-sm p-4 hover:shadow-md transition">
+        <img src="https://m.media-amazon.com/images/I/61+WzH8Sm1L._AC_SL1500_.jpg" alt="Portable Blender" class="rounded-lg mb-4">
+        <h4 class="text-lg font-semibold mb-2">Portable Blender</h4>
+        <p class="text-sm text-gray-600 mb-3">Blend smoothies anywhere, anytime.</p>
+        <a href="YOUR-AMAZON-AFFILIATE-LINK" target="_blank" class="block text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700 transition">
+          Buy Now
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-8 mt-12 text-center">
+    <p class="text-sm">© 2025 Bilanova.shop — Smart Gadgets for Modern Living</p>
+    <p class="text-xs">Some links are affiliate links. We may earn a commission at no extra cost to you.</p>
+  </footer>
+
+</body>
+</html>
