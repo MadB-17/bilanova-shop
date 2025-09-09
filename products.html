@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shop — Bilanova</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+
+  <!-- Header -->
+  <header class="w-full border-b">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-bold tracking-wide">BILANOVA</h1>
+      <nav class="space-x-6 text-lg">
+        <a href="/" class="hover:text-emerald-600">Home</a>
+        <a href="/products.html" class="hover:text-emerald-600 font-semibold">Shop</a>
+        <a href="/contact.html" class="hover:text-emerald-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-6 py-12">
+    <h2 class="text-3xl font-bold text-center mb-8">Shop — Curated Gadgets</h2>
+
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Product 1 -->
+      <article class="border rounded-xl p-4 shadow-sm">
+        <img src="https://m.media-amazon.com/images/I/71s7Hky8-CL._AC_SL1500_.jpg" alt="Smart LED Strip" class="rounded-lg mb-4 w-full object-cover">
+        <h3 class="font-semibold text-lg">Smart LED Strip</h3>
+        <p class="text-sm text-gray-600 mb-3">Colorful smart lighting, app & voice compatible — great for rooms & desks.</p>
+        <!-- Replace placeholder link with your Amazon SiteStripe link -->
+        <a href="YOUR_AFFILIATE_LINK_1" class="affiliate-btn block text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700" target="_blank" rel="sponsored noopener noreferrer">Buy on Amazon</a>
+      </article>
+
+      <!-- Product 2 -->
+      <article class="border rounded-xl p-4 shadow-sm">
+        <img src="https://m.media-amazon.com/images/I/61j17FfY4LL._AC_SL1500_.jpg" alt="Mini USB Vacuum" class="rounded-lg mb-4 w-full object-cover">
+        <h3 class="font-semibold text-lg">Mini USB Desk Vacuum</h3>
+        <p class="text-sm text-gray-600 mb-3">Quick clean for keyboards, crumbs and small spaces.</p>
+        <a href="YOUR_AFFILIATE_LINK_2" class="affiliate-btn block text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700" target="_blank" rel="sponsored noopener noreferrer">Buy on Amazon</a>
+      </article>
+
+      <!-- Product 3 -->
+      <article class="border rounded-xl p-4 shadow-sm">
+        <img src="https://m.media-amazon.com/images/I/71kRrRW0lUL._AC_SL1500_.jpg" alt="Magnetic Phone Holder" class="rounded-lg mb-4 w-full object-cover">
+        <h3 class="font-semibold text-lg">Magnetic Phone Holder</h3>
+        <p class="text-sm text-gray-600 mb-3">Sleek mount for car or desk — emergency-proof hold.</p>
+        <a href="YOUR_AFFILIATE_LINK_3" class="affiliate-btn block text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700" target="_blank" rel="sponsored noopener noreferrer">Buy on Amazon</a>
+      </article>
+
+      <!-- Product 4 -->
+      <article class="border rounded-xl p-4 shadow-sm">
+        <img src="https://m.media-amazon.com/images/I/61+WzH8Sm1L._AC_SL1500_.jpg" alt="Portable Blender" class="rounded-lg mb-4 w-full object-cover">
+        <h3 class="font-semibold text-lg">Portable Blender</h3>
+        <p class="text-sm text-gray-600 mb-3">USB rechargeable blender for smoothies on the go.</p>
+        <a href="YOUR_AFFILIATE_LINK_4" class="affiliate-btn block text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700" target="_blank" rel="sponsored noopener noreferrer">Buy on Amazon</a>
+      </article>
+
+      <!-- Product 5 -->
+      <article class="border rounded-xl p-4 shadow-sm">
+        <img src="https://via.placeholder.com/600x400?text=Sunrise+Alarm" alt="Sunrise Alarm Clock" class="rounded-lg mb-4 w-full object-cover">
+        <h3 class="font-semibold text-lg">Sunrise Alarm Clock</h3>
+        <p class="text-sm text-gray-600 mb-3">Wake naturally with light + sound for better mornings.</p>
+        <a href="YOUR_AFFILIATE_LINK_5" class="affiliate-btn block text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700" target="_blank" rel="sponsored noopener noreferrer">Buy on Amazon</a>
+      </article>
+
+      <!-- Product 6 -->
+      <article class="border rounded-xl p-4 shadow-sm">
+        <img src="https://via.placeholder.com/600x400?text=LED+Face+Mask" alt="LED Face Mask" class="rounded-lg mb-4 w-full object-cover">
+        <h3 class="font-semibold text-lg">LED Face Mask</h3>
+        <p class="text-sm text-gray-600 mb-3">Skincare light therapy mask — trending viral product.</p>
+        <a href="YOUR_AFFILIATE_LINK_6" class="affiliate-btn block text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700" target="_blank" rel="sponsored noopener noreferrer">Buy on Amazon</a>
+      </article>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-8 mt-12 text-center">
+    <p class="text-sm">© 2025 Bilanova.shop</p>
+    <p class="text-xs">Affiliate disclosure: Some links are affiliate links; we may earn a commission at no extra cost to you.</p>
+  </footer>
+
+  <!-- Simple outbound click tracker fallback (we'll wire GA next) -->
+  <script>
+    // Temporarily just logs clicks (for local testing)
+    document.querySelectorAll('.affiliate-btn').forEach(btn=>{
+      btn.addEventListener('click', ()=>console.log('Affiliate button clicked:', btn.href));
+    });
+  </script>
+</body>
+</html>
 
