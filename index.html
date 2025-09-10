@@ -1,88 +1,147 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bilanova — Smart Gadgets & Lifestyle Tech</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bilanova — Curated Smart Gadgets</title>
+  <meta name="description" content="Bilanova curates smart, affordable gadgets—lighting, home, fitness, beauty & pet tech. Discover our top picks and check current prices." />
+  <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- OPTIONAL: Add your GA4 snippet here (replace G-XXXXXXX) -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX');
+  </script>
+  -->
 </head>
-<body class="bg-white text-gray-900 font-sans">
+<body class="antialiased bg-white text-gray-900">
 
   <!-- Header -->
-  <header class="w-full border-b shadow-sm">
-    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
-      <h1 class="text-2xl font-bold tracking-wide">BILANOVA</h1>
-      <nav class="space-x-6 text-lg">
-        <a href="/" class="hover:text-emerald-600">Home</a>
-        <a href="/products" class="hover:text-emerald-600">Products</a>
-        <a href="/contact" class="hover:text-emerald-600">Contact</a>
+  <header class="border-b">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="text-2xl font-extrabold tracking-tight">BILANOVA</div>
+        <div class="text-xs text-gray-500">Smart Gadgets · Modern Living</div>
+      </div>
+      <nav class="text-sm space-x-6">
+        <a href="#home" class="hover:text-emerald-600">Home</a>
+        <a href="#products" class="hover:text-emerald-600">Shop</a>
+        <a href="#about" class="hover:text-emerald-600">About</a>
       </nav>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="bg-gray-50 py-20 text-center">
-    <h2 class="text-4xl font-extrabold mb-4">Smart Gadgets for Modern Living</h2>
-    <p class="text-lg text-gray-600 mb-6">Curated lifestyle & tech products that make everyday smarter.</p>
-    <a href="/products" class="px-6 py-3 bg-emerald-600 text-white rounded-xl text-lg hover:bg-emerald-700 transition">
-      Shop Now
-    </a>
-  </section>
-
-  <!-- Featured Products Section -->
-  <section class="max-w-7xl mx-auto px-6 py-12">
-    <h3 class="text-2xl font-bold mb-8 text-center">Featured Products</h3>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-
-      <!-- Product 1 -->
-      <div class="border rounded-xl shadow-sm p-4 hover:shadow-md transition">
-        <img src="https://m.media-amazon.com/images/I/71s7Hky8-CL._AC_SL1500_.jpg" alt="Smart LED Strip" class="rounded-lg mb-4">
-        <h4 class="text-lg font-semibold mb-2">Smart LED Strip</h4>
-        <p class="text-sm text-gray-600 mb-3">Colorful smart lighting with app control.</p>
-        <a href="/products.html" target="_blank" class="block text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700 transition">
-          Buy Now
-        </a>
-      </div>
-
-      <!-- Product 2 -->
-      <div class="border rounded-xl shadow-sm p-4 hover:shadow-md transition">
-        <img src="https://m.media-amazon.com/images/I/61j17FfY4LL._AC_SL1500_.jpg" alt="Mini USB Vacuum" class="rounded-lg mb-4">
-        <h4 class="text-lg font-semibold mb-2">Mini USB Vacuum</h4>
-        <p class="text-sm text-gray-600 mb-3">Keep your desk and gadgets dust-free.</p>
-        <a href="YOUR-AMAZON-AFFILIATE-LINK" target="_blank" class="block text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700 transition">
-          Buy Now
-        </a>
-      </div>
-
-      <!-- Product 3 -->
-      <div class="border rounded-xl shadow-sm p-4 hover:shadow-md transition">
-        <img src="https://m.media-amazon.com/images/I/71kRrRW0lUL._AC_SL1500_.jpg" alt="Magnetic Phone Holder" class="rounded-lg mb-4">
-        <h4 class="text-lg font-semibold mb-2">Magnetic Phone Holder</h4>
-        <p class="text-sm text-gray-600 mb-3">Strong magnetic mount for your car or desk.</p>
-        <a href="YOUR-AMAZON-AFFILIATE-LINK" target="_blank" class="block text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700 transition">
-          Buy Now
-        </a>
-      </div>
-
-      <!-- Product 4 -->
-      <div class="border rounded-xl shadow-sm p-4 hover:shadow-md transition">
-        <img src="https://m.media-amazon.com/images/I/61+WzH8Sm1L._AC_SL1500_.jpg" alt="Portable Blender" class="rounded-lg mb-4">
-        <h4 class="text-lg font-semibold mb-2">Portable Blender</h4>
-        <p class="text-sm text-gray-600 mb-3">Blend smoothies anywhere, anytime.</p>
-        <a href="YOUR-AMAZON-AFFILIATE-LINK" target="_blank" class="block text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700 transition">
-          Buy Now
-        </a>
-      </div>
-
+  <!-- Hero -->
+  <section id="home" class="bg-gray-50 py-16">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Curated gadgets that make life easier</h1>
+      <p class="text-gray-600 mb-6 max-w-2xl mx-auto">We find affordable, helpful tech — tested for everyday use. Tap any product to check price & reviews on Amazon.</p>
+      <a href="#products" class="inline-block bg-emerald-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-emerald-700">Shop our picks</a>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-gray-900 text-gray-300 py-8 mt-12 text-center">
-    <p class="text-sm">© 2025 Bilanova.shop — Smart Gadgets for Modern Living</p>
-    <p class="text-xs">Some links are affiliate links. We may earn a commission at no extra cost to you.</p>
+  <!-- Categories + Products -->
+  <main id="products" class="max-w-5xl mx-auto px-6 py-10">
+    <h2 class="text-2xl font-bold mb-6 text-center">Featured categories</h2>
+
+    <!-- Category: Smart Home & Accessories -->
+    <section class="mb-10">
+      <h3 class="text-xl font-semibold mb-4">Smart Home & Accessories</h3>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Card: Smart LED Strip -->
+        <div class="border rounded-2xl p-4 shadow-sm">
+          <img class="rounded-lg mb-3 w-full object-cover" src="https://m.media-amazon.com/images/I/71s7Hky8-CL._AC_SL1500_.jpg" alt="Smart LED Strip">
+          <h4 class="font-semibold">Smart LED Strip</h4>
+          <p class="text-sm text-gray-600 mb-3">App + voice control RGB lighting — perfect for rooms & desks.</p>
+          <!-- Replace AFF_LINK_1 with the affiliate link you copy from SiteStripe -->
+          <a href="AFF_LINK_1" class="affiliate-btn inline-block w-full text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700" target="_blank" rel="sponsored noopener noreferrer">Check price & reviews</a>
+        </div>
+
+        <!-- Card: Smart Plug (example) -->
+        <div class="border rounded-2xl p-4 shadow-sm">
+          <img class="rounded-lg mb-3 w-full object-cover" src="https://m.media-amazon.com/images/I/61j17FfY4LL._AC_SL1500_.jpg" alt="Smart Plug">
+          <h4 class="font-semibold">Smart Plug</h4>
+          <p class="text-sm text-gray-600 mb-3">Make any device smart — works with Alexa & Google.</p>
+          <a href="AFF_LINK_2" class="affiliate-btn inline-block w-full text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700" target="_blank" rel="sponsored noopener noreferrer">Check price & reviews</a>
+        </div>
+
+        <!-- Card: Magnetic Phone Holder -->
+        <div class="border rounded-2xl p-4 shadow-sm">
+          <img class="rounded-lg mb-3 w-full object-cover" src="https://m.media-amazon.com/images/I/71kRrRW0lUL._AC_SL1500_.jpg" alt="Magnetic Holder">
+          <h4 class="font-semibold">Magnetic Phone Holder</h4>
+          <p class="text-sm text-gray-600 mb-3">Sleek, strong magnetic hold for car or desk.</p>
+          <a href="AFF_LINK_3" class="affiliate-btn inline-block w-full text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700" target="_blank" rel="sponsored noopener noreferrer">Check price & reviews</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Category: Fitness & Portable -->
+    <section class="mb-10">
+      <h3 class="text-xl font-semibold mb-4">Fitness & Portable</h3>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="border rounded-2xl p-4 shadow-sm">
+          <img class="rounded-lg mb-3 w-full object-cover" src="https://m.media-amazon.com/images/I/61+WzH8Sm1L._AC_SL1500_.jpg" alt="Portable Blender">
+          <h4 class="font-semibold">Portable Blender</h4>
+          <p class="text-sm text-gray-600 mb-3">USB rechargeable blender — smoothies on the go.</p>
+          <a href="AFF_LINK_4" class="affiliate-btn inline-block w-full text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700" target="_blank" rel="sponsored noopener noreferrer">Check price & reviews</a>
+        </div>
+
+        <div class="border rounded-2xl p-4 shadow-sm">
+          <img class="rounded-lg mb-3 w-full object-cover" src="https://via.placeholder.com/600x400?text=Fitness+Tracker" alt="Fitness Tracker">
+          <h4 class="font-semibold">Budget Fitness Tracker</h4>
+          <p class="text-sm text-gray-600 mb-3">Track steps, sleep & heart rate — great starter trackers.</p>
+          <a href="AFF_LINK_5" class="affiliate-btn inline-block w-full text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700" target="_blank" rel="sponsored noopener noreferrer">Check price & reviews</a>
+        </div>
+
+        <div class="border rounded-2xl p-4 shadow-sm">
+          <img class="rounded-lg mb-3 w-full object-cover" src="https://via.placeholder.com/600x400?text=Mini+Massage+Gun" alt="Mini Massage Gun">
+          <h4 class="font-semibold">Mini Massage Gun</h4>
+          <p class="text-sm text-gray-600 mb-3">Portable recovery device — great for gym & travel.</p>
+          <a href="AFF_LINK_6" class="affiliate-btn inline-block w-full text-center bg-emerald-600 text-white py-2 rounded-lg hover:bg-emerald-700" target="_blank" rel="sponsored noopener noreferrer">Check price & reviews</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Add more categories if you want (Beauty, Pets, Wellness) -->
+  </main>
+
+  <!-- About / footer -->
+  <section id="about" class="bg-gray-50 py-8">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h3 class="text-lg font-semibold mb-2">About Bilanova</h3>
+      <p class="text-gray-600 text-sm max-w-2xl mx-auto">Bilanova curates smart, reliable gadgets that upgrade daily life. We use affiliate links — at no extra cost to you. Read our Privacy & Affiliate Disclosure for details.</p>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-gray-300 py-6">
+    <div class="max-w-5xl mx-auto px-6 text-center text-xs">
+      <p>© <span id="year"></span> Bilanova.shop — Curated smart gadgets</p>
+      <p class="mt-2">Affiliate disclosure: Some links on this page are affiliate links. We may earn a commission when you buy through our links — at no extra cost to you.</p>
+    </div>
   </footer>
 
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // optional: simple affiliate click log + gtag event (if GA is added above)
+    document.querySelectorAll('.affiliate-btn').forEach(btn=>{
+      btn.addEventListener('click', function(e){
+        try {
+          if (window.gtag) {
+            gtag('event', 'affiliate_click', {
+              'event_category': 'affiliate',
+              'event_label': this.href,
+              'value': 1
+            });
+          }
+        } catch(e){ console.log('gtag missing'); }
+      });
+    });
+  </script>
 </body>
 </html>
-
